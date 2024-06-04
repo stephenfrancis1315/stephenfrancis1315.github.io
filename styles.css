@@ -71,10 +71,10 @@ body {
 
 /* Responsive text */
 h1 {
-    font-size: 5em;
-    background-color: #b94242;
+    font-size: 4em;
+    
     position: absolute;
-    top: 1;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
