@@ -72,14 +72,13 @@ body {
 /* Responsive text */
 h1 {
     font-size: 4em;
-    
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin-bottom: 0.5em;
-    padding: 10px 10px; /* Padding around the text */
+    padding: 5px 5px; /* Padding around the text */
     border-radius: 70px; /* Rounded corners */
    /*  cursor: pointer; Pointer cursor to indicate clickability */
    /* display: inline-block;  Display as inline block to adjust size to content */
