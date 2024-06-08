@@ -1,95 +1,47 @@
-/* Set the body to have no margins and padding */
-body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-/* Container for the video to ensure it covers the entire background */
-.video-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
-}
-
-/* Video settings to cover the whole viewport */
-.bg-video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(10px); /* Adjust the blur amount as needed */
-}
-
-/* Overlay to make content more readable */
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-}
-
+.video-container 
 {
-  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
 
-body {
-  margin: 0;
-  font-family: Arial;
+.bg-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(7px); /* Adjust the blur amount as needed */
 }
 
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-
-
-
- .h1 {
-  color: white;
-  text-align: top;
-  font-size: 80px;
-}
-
-.polaroid {
-  width: 80%;
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 25px;
-}
-
-.container {
-  text-align: left;
-  padding: 10px 60px;
- background-color: rgb(180, 151, 151, 0.144);
-
-}
-.container1 {
-  text-align: left;
+.image
+{
+  width: 20%;
   
-  
-  padding: 10px 60px;
- background-color: rgba(180, 151, 151, 0.144);
- 
+  }
+
+.container
+{
+ text-align: center;
+}
+
+.imageproperties1
+{
+background-color: rgba(240, 255, 255, 0.151);
+width: 100%;
+}
+h2
+{
+  color: azure;
+}
+h1
+{
+  color: chartreuse;
+}
+.imageproperties2
+{
+background-color: rgba(247, 102, 5, 0.932);
 
 }
- .txt {
- color:white;
- background-color: black;
- font-size:10px;
- 
- }
-
-
-
